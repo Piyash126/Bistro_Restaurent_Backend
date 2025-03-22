@@ -4,7 +4,7 @@ const cors = require('cors');
 const port = process.env.port || 5000;
 require('dotenv').config()
 const jwt = require('jsonwebtoken');
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY0]);
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 //middleware
 
 app.use(cors());
